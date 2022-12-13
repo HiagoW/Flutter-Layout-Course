@@ -1,6 +1,6 @@
 # alubank
 
-A new Flutter project.
+Project developed as part of Alura Flutter Formation
 
 ## Getting Started
 
