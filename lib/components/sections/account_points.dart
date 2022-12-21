@@ -42,23 +42,20 @@ class _AccountPointsContent extends StatelessWidget {
           padding: const EdgeInsets.only(bottom: 8.0),
           child: Text('Pontos totais:'),
         ),
-        Padding(
-          padding: const EdgeInsets.only(bottom: 8.0),
-          child: Text(
-            '3000',
-            style: Theme.of(context).textTheme.bodyLarge,
-          ),
+        Text(
+          '3000',
+          style: Theme.of(context).textTheme.bodyLarge,
         ),
         Padding(
-          padding: const EdgeInsets.only(bottom: 8.0),
+          padding: const EdgeInsets.only(bottom: 8.0, top: 8.0),
           child: ContentDivision(),
         ),
-        Padding(
-          padding: const EdgeInsets.only(bottom: 8.0),
-          child: Text('Objetivos:'),
+        Text(
+          'Objetivos:',
+          style: Theme.of(context).textTheme.titleMedium,
         ),
         Padding(
-          padding: const EdgeInsets.only(bottom: 8.0),
+          padding: const EdgeInsets.only(bottom: 8.0, top: 8.0),
           child: Row(
             children: [
               Padding(
